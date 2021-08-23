@@ -1,0 +1,37 @@
+@use "../abstract" as abs;
+
+body {
+    background-color: abs.$fourth-color;
+    color: abs.$secondary-color;
+    font-family: abs.$font-stack;
+}
+
+.section-head {
+    margin-bottom: 30px;
+    text-align: center;
+    color: abs.$secondary-color;
+    font-weight: bold;
+    font-size: 30px;
+
+    .change-color {
+        color: abs.$primary-color;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    margin-bottom: 200px;
+}
+
+@media screen and (max-width:767px){
+section {
+    margin-bottom: 150px;
+}
+
+.section-head {
+    font-size: 30px;
+}
+}

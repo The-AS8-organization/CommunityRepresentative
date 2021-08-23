@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,7 +15,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
@@ -23,18 +24,287 @@
     <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Community Representatives • AS8 ORG</title>
 </head>
-<body>
-    <nav></nav>
-    <div class="hero"></div>
-    <div class="opportunity-stack"></div>
-    <div class="representative-stack"></div>
-    <footer></footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+
+
+<body>
+    <header>
+        <nav id="main-nav" class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/others/brand-img.svg" alt="" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" style="background-color:white;" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://the-as8-organization.github.io/">Main</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://drive.google.com/file/d/19smnC7cdL_zvkYXSwhmniLTWRSMNmrkQ/view?usp=sharing">Code of conduct</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="#">Learn more</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <div id="hero" class="container">
+        <div class="hero-title">
+            <h1 class="main-title">Collaborate with people you can learn from</h1>
+            <img class="pen-tool" src="images/others/scretch.png" alt="scretch">
+
+            <ul class="hero-button">
+                <li><a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSd5ciEdkNRRT5PgGWWj6mEUWjsQWnmhvP-DLq5IQ6jHHkzNXQ/viewform">Apply Now &nbsp; <i
+                            class="bicon fas fa-mouse-pointer"></i></a></li>
+            </ul>
+        </div>
+        <div class="hero-image">
+            <img src="images/others/hero-img.svg">
+        </div>
+    </div>
+
+
+    <div id="opportunity-stack">
+        <h1 class="section-head" id="opp-section">Available Opportunities</h1>
+        
+        <div class="arrow-stack">
+            <div class="arrow left"><i class="bicon fas fa-arrow-left"></i></div>
+            <div class="arrow right"><i class="bicon fas fa-arrow-right"></i></div>
+        </div>
+
+        <div class="scroll-view">
+            <div class="opp-card">
+                <img class="opp-img" src="images/others/learning-img.svg">
+                <p class="opp-text">Work in a learning environment with a supportive vibrant community</p>
+            </div>
+
+            <div class="opp-card">
+                <img class="opp-img" src="images/others/recognition-img.svg">
+                <p class="opp-text">Recognition for top performences and opportunity to work with the core team</p>
+            </div>
+
+            <div class="opp-card">
+                <img class="opp-img" src="images/others/connection-img.svg">
+                <p class="opp-text">Increased connectedness in a number of prestigious institutions</p>
+            </div>
+
+            <div class="opp-card">
+                <img class="opp-img" src="images/others/workshop-img.svg">
+                <p class="opp-text">Opportunities for exclusive workshops and training on career development</p>
+            </div>
+
+            <div class="opp-card">
+                <img class="opp-img" src="images/others/global-img.svg">
+                <p class="opp-text">Contribute and work in a variety of global and national projects</p>
+            </div>
+
+            <div class="opp-card">
+                <img class="opp-img" src="images/others/professional-img.svg">
+                <p class="opp-text">Interact with industry professionals and newcomers who share your interests</p>
+            </div>
+
+            <div class="opp-card">
+                <img class="opp-img" src="images/others/eca-img.svg">
+                <p class="opp-text">Add more value to your resume, ECA profile & portfolio website</p>
+            </div>
+        </div>
+    </div>
+
+
+    <h1 class="section-head" id="rep-section">Meet Our Representatives</h1>
+    <div id="representative-stack" class="container">
+        <div class="rep-circle">
+            <img src="images/representatives/Abrar Hamim.jpg" class="rep-img">
+            <div class="rep-mask"></div>
+            <h2 class="rep-name">Abrar Hameem</h2>
+        </div>
+
+        <div class="rep-circle">
+            <img src="images/representatives/Sabiha Akter.jpg" class="rep-img">
+            <div class="rep-mask"></div>
+            <h2 class="rep-name">Sabiha Akter</h2>
+        </div>
+
+        <div class="rep-circle">
+            <img src="images/representatives/Shahriar Sami.jpg" class="rep-img">
+            <div class="rep-mask"></div>
+            <h2 class="rep-name">Shahriar Sami</h2>
+        </div>
+
+        <div class="rep-circle">
+            <img src="images/representatives/Sudad Mahmud.jpg" class="rep-img">
+            <div class="rep-mask"></div>
+            <h2 class="rep-name">Sudad Mahmud</h2>
+        </div>
+
+        <div class="rep-circle">
+            <img src="images/representatives/Ave Rahman.jpg" class="rep-img">
+            <div class="rep-mask"></div>
+            <h2 class="rep-name">Ave Rahman</h2>
+        </div>
+
+        <div class="rep-circle">
+            <img src="images/representatives/K.M.Abdullah Probal.jpg" class="rep-img">
+            <div class="rep-mask"></div>
+            <h2 class="rep-name">Abdullah Probal</h2>
+        </div>
+
+        <div class="rep-circle">
+            <img src="images/representatives/Amir Hamza Asif.jpg" class="rep-img">
+            <div class="rep-mask"></div>
+            <h2 class="rep-name">Amir Asif</h2>
+        </div>
+
+        <div class="rep-circle">
+            <img src="images/representatives/Abid Hasan.jpg" class="rep-img">
+            <div class="rep-mask"></div>
+            <h2 class="rep-name">Abid Hasan</h2>
+        </div>
+
+        <div class="rep-circle">
+            <img src="images/representatives/Farzana Sikder.jpg" class="rep-img">
+            <div class="rep-mask"></div>
+            <h2 class="rep-name">Farzana Sikder</h2>
+        </div>
+
+        <div class="rep-circle">
+            <img src="images/representatives/Amer Malik.jpg" class="rep-img">
+            <div class="rep-mask"></div>
+            <h2 class="rep-name">Amer Malik</h2>
+        </div>
+
+        <div class="rep-circle">
+            <img src="images/representatives/Tanzia Siddique.jpg" class="rep-img">
+            <div class="rep-mask"></div>
+            <h2 class="rep-name">Tanzia Siddique</h2>
+        </div>
+
+        <div class="rep-circle">
+            <img src="images/representatives/Tajrian Munsha.jpg" class="rep-img">
+            <div class="rep-mask"></div>
+            <h2 class="rep-name">Tajrian Munsha</h2>
+        </div>
+
+        <div class="rep-circle">
+            <img src="images/representatives/Taspia Jannat.jpg" class="rep-img">
+            <div class="rep-mask"></div>
+            <h2 class="rep-name">Taspia Jannat</h2>
+        </div>
+
+        <div class="rep-circle">
+            <img src="images/representatives/Shakil Abrar.jpg" class="rep-img">
+            <div class="rep-mask"></div>
+            <h2 class="rep-name">Shakil Abrar</h2>
+        </div>
+
+        <div class="rep-circle">
+            <img src="images/representatives/Tanjim Ahammed.jpg" class="rep-img">
+            <div class="rep-mask"></div>
+            <h2 class="rep-name">Tanjim Ahammed</h2>
+        </div>
+
+        <div class="rep-circle">
+            <img src="images/representatives/Muntajim Rahman.jpg" class="rep-img">
+            <div class="rep-mask"></div>
+            <h2 class="rep-name">Muntajim Rahman</h2>
+        </div>
+
+        <div class="rep-circle">
+            <img src="images/representatives/Jihan Amin.jpg" class="rep-img">
+            <div class="rep-mask"></div>
+            <h2 class="rep-name">Jihan Amin</h2>
+        </div>
+
+        <div class="rep-circle">
+            <img src="images/representatives/Deboshree Mallick.jpg" class="rep-img">
+            <div class="rep-mask"></div>
+            <h2 class="rep-name">Deboshree Mallick</h2>
+        </div>
+
+        <div class="rep-circle">
+            <img src="images/representatives/Istiaq Ahmed Anan.jpg" class="rep-img">
+            <div class="rep-mask"></div>
+            <h2 class="rep-name">Istiaq Anan</h2>
+        </div>
+
+        <div class="rep-circle">
+            <img src="images/representatives/Nafis Al-Ad-Din.jpg" class="rep-img">
+            <div class="rep-mask"></div>
+            <h2 class="rep-name">Nafis Al-Ad-Din</h2>
+        </div>
+
+        <div class="rep-circle">
+            <img src="images/representatives/Sadik Hasan.jpg" class="rep-img">
+            <div class="rep-mask"></div>
+            <h2 class="rep-name">Sadik Hasan</h2>
+        </div>
+
+        <div class="rep-circle">
+            <img src="images/representatives/Shafi Iqtidar.jpg" class="rep-img">
+            <div class="rep-mask"></div>
+            <h2 class="rep-name">Shafi Iqtidar</h2>
+        </div>
+
+        <div class="rep-circle">
+            <img src="images/representatives/Sambit Sami.jpg" class="rep-img">
+            <div class="rep-mask"></div>
+            <h2 class="rep-name">Sambit Sami</h2>
+        </div>
+
+        <div class="rep-circle">
+            <img src="images/representatives/Ishtiaq Mohammad Faisal.jpg" class="rep-img">
+            <div class="rep-mask"></div>
+            <h2 class="rep-name">Ishtiaq Faisal</h2>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="container">
+            <hr id="footer-start">
+            <ul id="social">
+                <li><a id="first" href="https://www.facebook.com/as8org/" target="_blank"><i
+                            class="social-bicon fab fa-facebook"></i></a></li>
+                <li><a href="https://discord.gg/4aSj56xRwc" target="_blank"><i
+                            class="social-bicon fab fa-discord"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/the-as8-organization" target="_blank"><i
+                            class="social-bicon fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCjcS_VOSsg3ju2rwKZVNUnQ" target="_blank"><i
+                            class="social-bicon fab fa-youtube"></i></a></li>
+                <li><a href="https://www.instagram.com/as8org/" target="_blank"><i
+                            class="social-bicon fab fa-instagram"></i></a></li>
+            </ul>
+            <h2 id="org-name">Created by <a class="org-color-name" target="_blank" href="https://the-as8-organization.github.io/">The AS8 Organization</a></h2>
+
+            <div id="license">
+                <h2 id="copyright">Copyright &copy; AS8-Community-Representative-2021</h2>
+                <h2 id="allright">All rights reserved</h2>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    
+    <script src="js/index.js"></script>
 </body>
+
 </html>

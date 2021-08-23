@@ -1,0 +1,25 @@
+{
+  "name": "CommunityRepresentative",
+  "version": "1.0.0",
+  "description": "![poster](poster.jpg)",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^5.1.0",
+    "horizontal-scroll": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-AS8-organization/CommunityRepresentative.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/The-AS8-organization/CommunityRepresentative/issues"
+  },
+  "homepage": "https://github.com/The-AS8-organization/CommunityRepresentative#readme"
+}

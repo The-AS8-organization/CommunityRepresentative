@@ -1,0 +1,28 @@
+@use "../abstract" as abs;
+
+%btn-base {
+    font-size: 18px;
+    background-color: abs.$secondary-color;
+    color: abs.$third-color;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+
+    i {
+        color: abs.$third-color;
+    }
+
+    &:hover {
+        color: abs.$secondary-color;
+        background-color: abs.$third-color;
+
+        i {
+            color: abs.$secondary-color;
+        }
+    }
+}
+
+.btn-primary {
+    @extend %btn-base;
+}
+

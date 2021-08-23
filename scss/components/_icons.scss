@@ -1,0 +1,6 @@
+@use "../abstract" as abs;
+
+.bicon {
+    color: abs.$primary-color;
+    padding-right: 5px;
+}

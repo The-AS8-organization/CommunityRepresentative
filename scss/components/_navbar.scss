@@ -1,0 +1,49 @@
+@use "../abstract" as abs;
+
+.navbar {
+    padding-top: 30px;
+    background-color: transparent;
+    
+    .navbar-brand img {
+        width: 400px;
+        margin-right: 70px;
+    }
+
+    .navbar-nav {
+        .nav-link {
+            color: abs.$third-color;
+            font-size: 18px;
+            font-weight: lighter;
+            padding: 2px 0px;
+            margin: auto 10px;
+            border-bottom: 3px solid abs.$fourth-color;
+
+            &:hover {
+                color: abs.$third-color;
+                border-bottom: 3px solid abs.$secondary-color;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:991px) {
+    .navbar {
+    .navbar-toggler {
+        margin-left: auto;
+    }
+    
+    .navbar-brand img {
+        width: 350px;
+        margin: 0px;
+    }
+    }
+}
+
+
+@media screen and (max-width:462px) {
+    .navbar {
+        .navbar-brand img{
+            width: 320px;
+        }
+    }
+}

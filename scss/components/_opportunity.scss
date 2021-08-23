@@ -1,0 +1,122 @@
+@use "../abstract" as abs;
+
+
+#opportunity-stack {
+    margin-top: 80px;
+    background-color: abs.$third-color;
+    padding: 50px 0 80px 0;
+    text-align: center;
+
+    .section-head {
+        color: abs.$primary-color;
+        margin-bottom: 0;
+    }
+
+    .arrow-stack {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        top: 170px;
+        margin: auto 40px;
+
+        .arrow {
+            width: 40px;
+            height: 40px;
+            background-color: abs.$secondary-color;
+            border-radius: 100%;
+    
+            i {
+                position: relative;
+                top: 10px;
+                color: abs.$third-color;
+            }
+
+            &:hover {
+                background-color: abs.$primary-color;
+            }
+        }
+    }
+
+    .scroll-view {
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto 100px;
+
+        .opp-card {
+            border-radius: 15px;
+            min-width: 250px;
+            max-width: 300px;
+            background-color: abs.$primary-color;
+            text-align: center;
+            padding: 30px 10px;
+            margin: auto 40px;
+        
+            .opp-img {
+                max-width: 80%;
+                margin-bottom: 20px;
+            }
+        
+            .opp-text {
+                font-size: 17px;
+                color: abs.$third-color;
+            }
+        }        
+    }
+}
+
+@media screen and (max-width:1100px){
+#opportunity-stack {
+    .scroll-view {
+        margin: auto 200px;
+
+        .opp-card {
+            min-width: 220px;
+            max-width: 260px;
+            margin: auto 20px;  
+        
+            .opp-text {
+                font-size: 15px;
+            }
+        }
+    }
+}
+}
+
+@media screen and (max-width: 930px){
+    #opportunity-stack {
+        .arrow-stack {
+            margin: auto 20px;
+        }
+
+        .scroll-view {
+            margin: auto 250px;
+    
+            .opp-card {
+                min-width: 190px;
+                max-width: 220px;
+                margin: auto 15px;  
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px){
+    #opportunity-stack {
+        .arrow-stack {
+            display: none
+        }
+
+        .scroll-view {
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto 20px;
+            justify-content: space-evenly;
+            row-gap: 20px;
+    
+            .opp-card {
+                min-width: 190px;
+                max-width: 220px;
+            }
+        }
+    }
+}
